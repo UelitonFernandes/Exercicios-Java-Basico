@@ -4,18 +4,18 @@ import java.util.Scanner;
 public class Exercicio07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double squareSide, squareArea, squareArea2X;
+        double ladoDoQuadrado, areaDoQuadrado, dobroDaAreaDoQuadrado;
 
         System.out.println("Informe o valor do lado do quadrado em céntimetros :");
-        squareSide = input.nextDouble();
+        ladoDoQuadrado = input.nextDouble();
 
-        squareArea = squareSide * squareSide;
+        areaDoQuadrado = ladoDoQuadrado * ladoDoQuadrado;
 
-        System.out.printf("O valor da area do quadrado informado e de %.2f cm² %n", squareArea);
+        System.out.printf("O valor da area do quadrado informado e de %.2f cm² %n", areaDoQuadrado);
 
-        squareArea2X = 2 * squareArea;
+        dobroDaAreaDoQuadrado = 2 * areaDoQuadrado;
 
-        System.out.printf("E o seu dobro e de %.2f cm² %n", squareArea2X);
+        System.out.printf("E o seu dobro e de %.2f cm² %n", dobroDaAreaDoQuadrado);
 
         input.close();
     }

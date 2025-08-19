@@ -4,14 +4,14 @@ import java.util.Scanner;
 public class Exercicio08 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        double hourlyRate, hoursWorked, total;
+        double valorDaHoraTrabalhada, horasTrabalhadas, total;
 
         System.out.println("Informe o valor da sua hora de trabalho :");
-        hourlyRate = input.nextDouble();
+        valorDaHoraTrabalhada = input.nextDouble();
         System.out.println("Informe por quantas horas você trabalhou este mes :");
-        hoursWorked = input.nextDouble();
+        horasTrabalhadas = input.nextDouble();
 
-        total =  hourlyRate * hoursWorked;
+        total =  valorDaHoraTrabalhada * horasTrabalhadas;
 
         System.out.printf("O total de ganhos este mes foi de %.2f reais %n", total);
 

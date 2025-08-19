@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Exercicio06 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double radiusCircle;
+        double raioDoCirculo;
 
         System.out.println("Informe o tamanho do raio do circulo em céntimetros :");
-        radiusCircle = input.nextDouble();
+        raioDoCirculo = input.nextDouble();
 
-        double circleArea = Math.PI *(radiusCircle * radiusCircle);
+        double circleArea = Math.PI *(raioDoCirculo * raioDoCirculo);
 
         System.out.printf("A area deste círculo e de : %.2f cm² %n", circleArea);
 

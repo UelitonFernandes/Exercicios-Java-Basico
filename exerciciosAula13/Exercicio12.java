@@ -5,14 +5,14 @@ public class Exercicio12 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        double height, idealWeight;
+        double altura, pesoIdeal;
 
         System.out.println("Informe a sua altura :");
-        height = input.nextDouble();
+        altura = input.nextDouble();
 
-        idealWeight = (72.7 * height) - 58;
+        pesoIdeal = (72.7 * altura) - 58;
 
-        System.out.println("O seu peso ideal e de : " + idealWeight + " Kg");
+        System.out.println("O seu peso ideal e de : " + pesoIdeal + " Kg");
 
         input.close();
     }

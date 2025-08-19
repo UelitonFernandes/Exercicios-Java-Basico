@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class Exercicio03 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        var number1 = 0;
-        var number2 = 0;
+        var primeiroNumero = 0;
+        var segundoNumero = 0;
 
         System.out.println("Informe um número:");
-        number1 = input.nextInt();
+        primeiroNumero = input.nextInt();
         System.out.println("Informe outro número:");
-        number2 = input.nextInt();
+        segundoNumero = input.nextInt();
 
-        var sum = number1 + number2;
+        var sum = primeiroNumero + segundoNumero;
         System.out.println("A soma dos números informados é: " + sum);
         
         input.close();

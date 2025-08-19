@@ -5,36 +5,36 @@ public class Exercicio13 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        double heigth, idealWeight, weigth;
-        String sex;
+        double altura, pesoIdeal, peso;
+        String sexo;
 
         System.out.println("Informe a sua altura :");
-        heigth = input.nextDouble();
+        altura = input.nextDouble();
         System.out.println("Informe o seu sexo (masculino M | feminino F) :");
-        sex = input.next();
+        sexo = input.next();
 
-        if(sex.equalsIgnoreCase("M")){
-            idealWeight = (72.7 * heigth) - 58;
-            System.out.println("O seu peso ideal e : " + idealWeight);
+        if(sexo.equalsIgnoreCase("M")){
+            pesoIdeal = (72.7 * altura) - 58;
+            System.out.println("O seu peso ideal e : " + pesoIdeal);
             System.out.println("informe o seu peso :");
-            weigth = input.nextDouble();
+            peso = input.nextDouble();
 
-            if(weigth < idealWeight){
+            if(peso < pesoIdeal){
                 System.out.println("Você esta abaixo do seu peso ideal");
-                }else if(weigth == idealWeight){
+                }else if(peso == pesoIdeal){
                     System.out.println("Você esta no seu peso ideal");
             }else{
                 System.out.println("Você esta acima do seu peso ideal");
             }
-        }else if(sex.equalsIgnoreCase("F")){
-            idealWeight = (62.1 * heigth) - 44.7;
-            System.out.println("Seu peso ideal e : " + idealWeight);
+        }else if(sexo.equalsIgnoreCase("F")){
+            pesoIdeal = (62.1 * altura) - 44.7;
+            System.out.println("Seu peso ideal e : " + pesoIdeal);
             System.out.println("Informe o seu peso : ");
-            weigth = input.nextDouble();
+            peso = input.nextDouble();
 
-             if(weigth < idealWeight){
+             if(peso < pesoIdeal){
                 System.out.println("Você esta abaixo do seu peso ideal");
-                }else if(weigth == idealWeight){
+                }else if(peso == pesoIdeal){
                     System.out.println("Você esta no seu peso ideal");
             }else{
                 System.out.println("Você esta acima do seu peso ideal");
