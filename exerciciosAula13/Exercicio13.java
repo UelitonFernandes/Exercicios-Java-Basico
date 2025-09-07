@@ -5,7 +5,7 @@ public class Exercicio13 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        double altura, pesoIdeal, peso;
+        double altura,pesoIdeal,peso;
         String sexo;
 
         System.out.println("Informe a sua altura :");
@@ -16,7 +16,7 @@ public class Exercicio13 {
         if(sexo.equalsIgnoreCase("M")){
             pesoIdeal = (72.7 * altura) - 58;
             System.out.println("O seu peso ideal e : " + pesoIdeal);
-            System.out.println("informe o seu peso :");
+            System.out.println("Informe o seu peso :");
             peso = input.nextDouble();
 
             if(peso < pesoIdeal){

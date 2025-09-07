@@ -6,7 +6,7 @@ public class Exercicio06 {
         Scanner input = new Scanner(System.in);
         double raioDoCirculo;
 
-        System.out.println("Informe o tamanho do raio do circulo em céntimetros :");
+        System.out.println("Informe o tamanho do raio do circulo em centímetros :");
         raioDoCirculo = input.nextDouble();
 
         double circleArea = Math.PI *(raioDoCirculo * raioDoCirculo);

@@ -12,7 +12,6 @@ public class Exercicio15 {
         System.out.println("Por quantas horas você trabalhou este mês ?");
         horasTrabalhadas = input.nextDouble();
 
-        //descontos
         salarioBruto = valorHora * horasTrabalhadas;
         inss = (8 * salarioBruto)/100;
         impostoRenda = (11 * salarioBruto)/100;

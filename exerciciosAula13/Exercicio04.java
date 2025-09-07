@@ -4,23 +4,20 @@ import java.util.Scanner;
 public class Exercicio04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double primeiraNota;
-        double segundaNota;
-        double terceiraNota;
-        double quartaNota;
+        double primeiroBimestre,segundoBimestre,terceiroBimestre,quartoBimestre;
 
         System.out.println("Informe a nota do primeiro bimestre :");
-        primeiraNota = input.nextDouble();
+        primeiroBimestre = input.nextDouble();
         System.out.println("Informe a nota do segundo bimestre :");
-        segundaNota = input.nextDouble();
+        segundoBimestre = input.nextDouble();
         System.out.println("Informe a nota do terceiro bimestre :");
-        terceiraNota = input.nextDouble();
+        terceiroBimestre = input.nextDouble();
         System.out.println("Informe a nota do quarto bimestre :");
-        quartaNota = input.nextDouble();
+        quartoBimestre = input.nextDouble();
 
-        double average = ((primeiraNota + segundaNota + terceiraNota + quartaNota)/4);
+        double media = ((primeiroBimestre + segundoBimestre + terceiroBimestre + quartoBimestre)/4);
 
-        System.out.println("A media das suas notas e de : " + average);
+        System.out.println("A média das suas notas é de : " + media);
 
         input.close();        
     }
